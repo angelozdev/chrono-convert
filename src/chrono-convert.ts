@@ -123,7 +123,7 @@ class ChronoConvert {
    * console.log(time.toSeconds()); // Outputs 78840000
    */
   static quarters(value: number): ChronoConvert {
-    return new ChronoConvert(value * MONTH * 3);
+    return new ChronoConvert(value * QUARTER);
   }
 
   /**
